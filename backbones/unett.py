@@ -25,7 +25,7 @@ import torch.nn.functional as F
 from x_transformers import RMSNorm
 from x_transformers.x_transformers import RotaryEmbedding
 
-from taoverse.model.tts.modules.e2tts import (
+from modules.e2tts import (
     TimestepEmbedding,
     ConvNeXtV2Block,
     ConvPositionEmbedding,
